@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class FibonacciNumber {
     private static long calc_fib(int n) {
-        int[] array = new int[n+1];
+        long[] array = new long[n+1];
         array[0] = 0;
         array[1] = 1;
         for (int i = 2; i <= n; i++)
